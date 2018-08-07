@@ -1,0 +1,4 @@
+USE bamazonDB;
+
+INSERT INTO products (product_name, department_name, price, stock_quantity)
+VALUES ("Microfiber Sheet Set - Cal King, Red", "Bed and Bath", 19.99, 100), ("6-Outlet Surge Protector Power Strip, 200 Joule - White", "Electronic Accessories", 5.00, 200), ("L.O.L. Surprise! Confetti Pop-Series 5 Collectible Dolls", "Toys & Games", 12.88, 55), ("JanSport Big Student Backpack - Black", "Seasonal", 47.90, 20), ("Fruit of the Loom Men's V-Neck Tee(Pack of 3) - Large", "Men's Wear", 16.99, 100), ("Fiskars Crafts Titanium Softgrip Adult Scissors, 8 inch, Color 3 Pack", "Arts & Crafts", 12.70, 237), ("GearWrench 84000D Hook and Pick Set", "Automotive Tools", 26.12, 10), ("Triumph Dog Turkey, Pea, & Berry Grain Free Jerky, 24 oz", "Pet Supplies", 6.68, 500), ("Toucan WIFI Outdoor Home Security Camera System", "Electronics", 149.95, 20), ("Homesick Scented Candle, Northern California", "Home Decor", 29.95, 400);
