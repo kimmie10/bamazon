@@ -1,8 +1,13 @@
 {
   "name": "bamazon",
   "version": "1.0.0",
-  "description": "",
-  "main": "bamazonCustomer.js",
+  "description": "This project uses node.js, MySql, npm packages and JavaScript to build a storefront named Bamazon. The app takes in orders and removes stock from the mySql database and reports to the customer there total purchase. I attemped to incorporate the NPM package cli-table however my table kept replicating itself everytime an item was purchased. This will be a later upgrade once I work out the bug.",
+  "main": "bamazonCus.js",
+  "dependencies": {
+    "inquirer": "^6.4.1",
+    "mysql": "^2.17.1"
+  },
+  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -10,15 +15,11 @@
     "type": "git",
     "url": "git+https://github.com/kimmie10/bamazon.git"
   },
+  "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/kimmie10/bamazon/issues"
   },
-  "homepage": "https://github.com/kimmie10/bamazon#readme",
-  "dependencies": {
-    "cli-table": "^0.3.1",
-    "inquirer": "^6.1.0",
-    "mysql": "^2.16.0"
-  }
+  "homepage": "https://github.com/kimmie10/bamazon#readme"
 }
