@@ -4,8 +4,8 @@
   "description": "This project uses node.js, MySql, npm packages and JavaScript to build a storefront named Bamazon. The app takes in orders and removes stock from the mySql database and reports to the customer there total purchase. I attemped to incorporate the NPM package cli-table however my table kept replicating itself everytime an item was purchased. This will be a later upgrade once I work out the bug.",
   "main": "bamazonCus.js",
   "dependencies": {
-    "inquirer": "^6.4.1",
-    "mysql": "^2.17.1"
+    "inquirer": "^7.0.4",
+    "mysql": "^2.18.1"
   },
   "devDependencies": {},
   "scripts": {
