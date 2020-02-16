@@ -8,8 +8,8 @@ CREATE TABLE products (
     product_name VARCHAR(100) NULL,
     department_name VARCHAR(100) NULL,
     price DECIMAL(10,4) NULL,
-    stock_quantity INT NULL,
-);
+    stock_quantity INT NULL
+)
 
-INSERT INTO products (product_name, department_name, price, stock_quantity);
+INSERT INTO products (product_name, department_name, price, stock_quantity)
 VALUES ()

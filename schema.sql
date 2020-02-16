@@ -10,6 +10,6 @@ CREATE TABLE products (
     price DECIMAL(10,4) NULL,
     stock_quantity INT NULL,
     PRIMARY KEY (item_id)
-);
+)
 
-SELECT * FROM products;
+SELECT * FROM products
